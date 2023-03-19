@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/chicken-leg.png">
+    <title>FOODGUIDE</title>
+</head>
+<body>
+    <div class="sidebar py-5 d-flex flex-column justify-content-between">
+        <ul class="list-unstyled links ">
+            <li class="p-4 position-relative"  id="sc"><a href="#" >Search</a></li>
+            <li class="p-4 position-relative" id="in"><a href="#" > Ingredients</a></li>
+            <li class="p-4 position-relative" id="ar"><a href="#" >Area</a></li>
+            <li class="p-4 position-relative" id="cat"><a href="#" >Category</a></li>
+            <li class="p-4 position-relative" id="cn"><a href="#" >Contact</a></li>
+        </ul>
+
+        
+            <p class="p-2 position-relative para"  >Copyright Â© 2023 All Rights
+                Reserved.</p>
+
+        
+       
+       
+        </div>
+        <div class="menu p-2 py-4 d-flex flex-column justify-content-between align-items-center">
+            <img src="images/order.png" class="img-fluid  " width="40px" alt="">
+            <i class="fa-solid fa-bars  " id="menu" ></i>
+        
+         <i class="fa-solid fa-xmark   "  id="close" ></i>
+         <div class="icons d-flex flex-column">
+            <i class="fa-solid fa-globe fs-5 mb-2"></i>
+            <i class="fa-solid fa-share fs-5"></i>
+         </div>
+         
+        
+           
+        </div>
+
+        <section id="search" class="py-5 d-none">
+            <div class="container w-75 mx-auto" id="serachRow"> 
+            </div>
+          
+        </div>
+        </section>
+
+        <section id="meals" class="py-5 d-none">
+            <div class="container">
+              <div class="row g-3" id="mealsRow">
+        
+      
+        
+              </div>
+            </div>
+            
+              
+        
+              
+            
+            
+        
+        </section>
+
+        <section id="category" class="py-5 d-none">
+            <div class="container">
+                <div class="row g-3" id="categeroyRow">
+                    
+                 
+
+                </div>
+            </div>
+        </section>
+
+        <section id="area" class="py-5 d-none">
+            <div class="container">
+                <div class="row g-5 text-white text-center " id="areaRow">
+                  
+                   
+
+                </div>
+
+            </div>
+          
+        </section>
+
+        <section id="ingredients" class="py-5 d-none ">
+        <div class="container">
+            <div class="row g-5" id="ingredientsRow">
+            </div>
+        </div>
+        <div class="icon position-fixed  ">
+            <img src="images/hot-pot.png" width="100" alt="">
+         </div>
+        </div>
+        </section>
+
+        <section id="contactRow" class="py-5 d-flex justify-content-center align-items-center vh-100 d-none">
+        </section>
+
+        <section id="meal-description" class="py-5 text-white ">
+            <div class="container w-75 mx-auto">
+                <div class="row g-3" id="descriptionRow">
+                    
+                </div>
+            </div>
+        </section>
+
+        <div class="loading position-fixed top-0 start-0 end-0 bottom-0     ">
+             <div class="boda d-flex justify-content-center align-items-center w-100 h-100  ">
+                
+                <canvas id="pizza"></canvas>
+          
+            </div> 
+            
+           
+        </div>
+        <div class="icon position-fixed  ">
+            <img src="images/hot-pot.png" width="100" alt="">
+         </div>
+   
+      
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.4.min.js"></script>  
+  <script src="js/index.js"></script>
+</body>
+</html>
