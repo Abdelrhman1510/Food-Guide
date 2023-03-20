@@ -50,6 +50,9 @@ $("#menu").click(function(){
         $(".menu").css("margin-left", "0px");
         $("#menu").css("display", "block");
         $("#meals").css("margin-left", "50px");
+        $("#area").css("margin-left", "50px");
+        $("#ingredients").css("margin-left", "50px");
+        $("#category").css("margin-left", "50px");
         $("#close").css("display", "none");
         
     $(".links li").animate({
